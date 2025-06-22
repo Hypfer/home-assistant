@@ -97,7 +97,6 @@ class ServerStatusUpdateLMS(ServerStatusUpdate):
 class ServerStatusUpdatePlugins(ServerStatusUpdate):
     """LMS Plugings update sensor from LMS via cooridnatior."""
 
-    auto_update = True
     title: str = SERVER_MODEL + " Plugins"
     installed_version = "Current"
     restart_triggered = False
